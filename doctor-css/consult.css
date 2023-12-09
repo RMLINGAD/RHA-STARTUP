@@ -1,0 +1,135 @@
+.container-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    margin-left: 300px;
+}
+.consult-container{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E7E7;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2); 
+}
+.consult-header{
+    background-color: #1F6C75;
+    min-height: 75px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.input-consult-container{
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    max-height: 800px;
+
+}
+.input-doctor, .input-profession, .input-schedule{
+    display: flex;
+    flex-direction: column;
+}
+.input-doctor label, .input-profession label, .input-schedule label{
+    font-weight: 400;
+    font-size: 18px;
+}
+.input-doctor input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+ .input-profession select{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+.input-schedule input[type="date"]{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+.input-profession{
+    padding: 0px 25px;
+}
+.text-area-container{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 40px;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+textarea{
+    height: 100%;
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+
+}
+textarea:focus{
+    border: none;
+    outline: none;
+}
+.send{
+    position:  absolute;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #1F6C75;
+    bottom: 20px;
+    right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.send i{
+    font-size: 30px;
+    color: #E7E7E7;
+}
+.send:hover{
+    background-color: rgb(9,24,29);
+    color: #1F6C75;
+}
+
+/* height */
+::-webkit-scrollbar {
+height: 10px;
+width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background-color:  rgb(225,225,225);
+border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background-color: rgb(9,24,29);
+border-radius: 10px;
+width: 30px;
+}

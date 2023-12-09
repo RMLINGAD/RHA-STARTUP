@@ -1,0 +1,39 @@
+h2 {
+  margin: 0;
+}
+.videomeet-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.form-meet {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #016064;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.form-meet h2 {
+  margin-top: 30px;
+  color: white;
+}
+.form-meet .input-id {
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.form-meet .button-join {
+  width: 150px;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  padding: 18px 0;
+  color: #63c5da;
+}

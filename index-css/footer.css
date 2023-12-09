@@ -1,0 +1,56 @@
+
+.footerContainer{
+    width: 100%;
+    
+    background-color:#016064 ;
+}
+.socialIcons{
+    display:flex;
+    justify-content: center;
+}
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color:#016064;
+    margin: 20px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 35px;
+    color: white;
+    opacity: 0.9;
+    transition: all 0.5s;
+}
+/* Hover effects on Social Media Icons*/
+
+.socialIcons a:hover i{
+    color:  rgb(9,24,29);
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration:none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerBottom{
+    background-color:#016064;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: grey;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px; 
+}

@@ -1,0 +1,52 @@
+/* Service Css*/
+.service-container {
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 175px;
+}
+.service-card {
+  min-width: 250px;
+  width: 340px;
+  height: 415px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 20px;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+.service-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 255px;
+}
+.service-button {
+  padding: 16px 55px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(31, 108, 117);
+  color: rgb(231, 231, 231);
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+}
+.img {
+  width: 230px;
+  height: 200px;
+}
+.service-button:hover {
+  background-color: rgb(9, 24, 29);
+}
+.service-button:active {
+  background-color: rgb(7, 19, 22);
+}
+/* Service Css*/
