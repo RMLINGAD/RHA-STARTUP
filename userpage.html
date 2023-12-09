@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" type="text/css" href="index-css/general.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/responsivenav.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/service.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/doctor.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/about.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/header.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/toggleprof.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/consult.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/inbox-sent.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/inboxmessage.css" />
+    <link rel="stylesheet" type="text/css" href="index-css/videolobby.css" />
+    
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="img/RHAORIG.png" alt="" class="logoimg" />
+      </div>
+      <ul>
+        <li>
+          <a href="#service" class="navlink active"><i class=""></i>SERVICES</a>
+        </li>
+        <li>
+          <a href="#doctor" class="navlink"><i class=""></i> DOCTORS</a>
+        </li>
+        <li>
+          <a href="#videoscroll" class="navlink"><i class=""></i> VIDEO MEET</a>
+        </li>
+        <li>
+          <a href="#footerscroll" class="navlink"><i class=""></i> Contacts</a>
+        </li>
+        <li>
+          <a href="#aboutscroll" class="navlink"><i class=""></i> About Us</a>
+        </li>
+      </ul>
+      <label class="icon">
+        <i onclick="togglenav();" class="bx bx-menu"></i>
+      </label>
+      <div class="profile-image">
+        <img id="profile" src="" alt="" class="profile" />
+      </div>
+    </nav>
+
+     <!-- Services -->
+  <div id="service" class="service-container">
+    <div class="service-card">
+        <div class="service-image">
+            <img class="img" src="/img/stethoscope.png">
+        </div>
+        <div class="button">
+            <button class="service-button">Read</button>
+        </div>
+    </div>
+    <div class="service-card">
+        <div class="service-image">
+            <img class="img" src="/img/schedule.png">
+        </div>
+        <div class="button">
+            <button class="service-button">Read</button>
+        </div>
+    </div>
+    <div class="service-card">
+        <div class="service-image">
+            <img class="img" src="/img/telemedicine.png">
+        </div>
+        <div class="button">
+            <button class="service-button">Read</button>
+        </div>
+    </div>
+</div>
+<!-- Services -->
+
+<!-- Doctors -->
+<div id="doctor" class="doctor-container">
+    <div class="doctor-menu">
+      <span class="material-symbols-outlined actives" onclick="choices('NEUROLOGIST')">neurology</span>
+<span class="material-symbols-outlined" onclick="choices('PULMONOLOGIST')">pulmonology</span>
+<span class="material-symbols-outlined" onclick="choices('GYNECOLOGIST')">gynecology</span>
+<span class="material-symbols-outlined" onclick="choices('DERMATOLOGIST')">dermatology</span>
+<span class="material-symbols-outlined" onclick="choices('OPHTHALMOLOGIST')">ophthalmology</span>
+<span class="material-symbols-outlined" onclick="choices('CARDIOLOGIST')">cardiology</span>
+<span class="material-symbols-outlined" onclick="choices('ENDOCRINOLOGIST')">endocrinology</span>
+<span class="material-symbols-outlined" onclick="choices('ONCOLOGIST')">oncology</span>
+<span class="material-symbols-outlined" onclick="choices('UROLOGIST')">urology</span>
+    </div>
+    <div class="card-container" id="cardcontainer">
+        
+    </div>
+</div>
+<!-- Doctors -->
+<!--Video Meet-->
+<div id="videoscroll" class="videomeet-container">
+  <form class="form-meet" id="join-form">
+    <h2>VIDEO MEET</h2>
+    <input
+      class="input-id"
+      placeholder="ENTER CODE ID"
+      type="text"
+      name="invite_link"
+      required
+    />
+    <input class="button-join" type="submit" value="Join Room" />
+  </form>
+</div>
+<!--Video Meet-->
+
+<!--ABOUT US-->
+<div id="aboutscroll" class="aboutcontainer">
+<section class="about">
+    <div class="div about-image">
+        <img src="/img/about.jpg">
+    </div>
+    <div class="div about-content">
+        <h2> ABOUT US</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+             sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+            </p>
+       
+    </div>
+</section>
+</div>
+<!--ABOUT US-->
+
+<!--FOOTER-->
+<div id="footerscroll" class="div footerContainer">
+<div class="div socialIcons">
+    <a href=""><i class='bx bxl-twitter'  ></i></a>
+    <a href=""><i class='bx bx-envelope' ></i></i></a>
+    <a href=""><i class='bx bxl-instagram' ></i></a>
+    <a href=""><i class='bx bxl-facebook-circle' ></i></a>
+</div>
+<div class="footerNav">
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Doctors</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+</div>
+<div class="footerBottom">
+    <p>Rural Health Access copyright &copy; 2023</p>
+</div>
+</div>
+<!--FOOTER-->
+
+<!--Toggle Profile-->
+
+<div class="toggle-nav" id="togglenav">
+  <div class="usernamecontainer">
+    <p class="username"></p>
+</div>
+<ul>
+ 
+  <li id="inbox"><a><i class="fa-solid fa-envelope"></i> INBOX</a></li>
+  <li id="sent"><a><i class="fa-solid fa-paper-plane"></i> SENT</a></li>
+  <li id="signout"><a><i class="fa-solid fa-right-from-bracket"></i> LOG OUT</a></li>
+</ul>
+</div>
+
+<!--Consult Form-->
+<div class="container-body" id="containerbody">
+  <div class="consult-container">
+    <div class="consult-header">
+  
+    </div>
+   <div class="input-consult-container">
+  
+    <div class="input-doctor">
+        <label>TO:</label>
+        <input>
+    </div>
+  
+   </div>
+   <div class="text-area-container">
+    <textarea placeholder="Write your message here..."></textarea>
+    <div class="send">
+        <i class="fa-solid fa-right-long"></i>
+    </div>
+   </div>
+  </div>
+</div>
+
+<!--Inbox Message-->
+<div class="container-body-inbox" id="inboxcontainer">
+  <div class="inbox-container">
+    <div class="inbox-header">
+    </div>
+  
+    <div class="inbox-info-container" id="inboxinfo">
+        <!--Inbox infos-->
+         <!--End Inbox infos-->
+    </div>
+  </div>
+</div>
+
+<!--Sent Message-->
+<div class="container-body-inbox" id="sentcontainer">
+  <div class="inbox-container">
+    <div class="inbox-header">
+    </div>
+  
+    <div class="inbox-info-container" id="sentinfo">
+        <!--Inbox infos-->
+         <!--End Inbox infos-->
+    </div>
+  </div>
+</div>
+<!--Sent Message-->
+
+<!--Inbox View-->
+<div class="container-body-view" id="containerbodyview">
+  <div class="consult-container">
+    <div class="consult-header">
+  
+    </div>
+   <div class="input-consult-container">
+  
+    <div class="input-doctor">
+        <label>FROM:</label>
+        <input>
+    </div>
+  
+   </div>
+   <div class="text-area-container">
+    <textarea placeholder="Write your message here..."></textarea>
+    <div class="send">
+        <i class="fa-solid fa-right-long"></i>
+    </div>
+   </div>
+  </div>
+</div>
+
+<script src="./js/doctoractive.js" type="module"></script>
+<script src="./js/inboxmessage.js" type="module"></script>
+<script src="./js/sentmessage.js" type="module"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/console.js"></script>
+    <script src="./js/currentuser.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+       var profiletoggle = $('#profile');
+       var profilenav = $('#togglenav');
+       var inbox = $('#inbox');
+       var inboxcontainer = $('#inboxcontainer');
+       var sentcontainer = $('#sentcontainer');
+ 
+       $(document).ready(function(){
+
+        $('#profile').click(function(){
+                profilenav.toggle();
+                inboxcontainer.hide();
+                sentcontainer.hide();
+            })
+        $('#inbox').click(function(){
+                inboxcontainer.toggle();
+                sentcontainer.hide();
+        })
+        $('#sent').click(function(){
+                inboxcontainer.hide();
+                sentcontainer.toggle();
+        })
+
+            })
+
+
+            let form = document.getElementById("join-form");
+      let user = "users";
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        let inviteCode = e.target.invite_link.value;
+        window.location = `video.html?room=${inviteCode}&user=${user}`;
+      });
+          
+        
+    </script>
+  </body>
+</html>

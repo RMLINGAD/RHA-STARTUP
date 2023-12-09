@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="doctor-css/general.css">
+    <link rel="stylesheet" type="text/css" href="doctor-css/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="doctor-css/consult.css">
+    <link rel="stylesheet" type="text/css" href="doctor-css/video.css">
+    <link rel="stylesheet" type="text/css" href="doctor-css/inbox-sent.css">
+    <link rel="stylesheet" type="text/css" href="doctor-css/inboxsentview.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <title>DOCTORDASH</title>
+</style>
+</head>
+<body>
+    <!--SIDEBAR FIXED-->
+    <div class="sidebar">
+        <header>
+            <img class="logo" src="img/RHAORIG.png">
+        </header>
+        <div class="username">
+            <p class="user" id="docusername">DOCTOR NAME</p>
+        </div>
+        <ul>
+            <li class=""><a onclick="window.content(0);" class="navlinks active "><i class="fa-solid fa-message"></i> MESSAGE</a></li>
+            <li><a onclick="window.content(1);" class="navlinks "><i class="fa-solid fa-video"></i> VIDEO MEET</a></li>
+            <li><a onclick="window.content(2);" class="navlinks "><i class="fa-solid fa-envelope"></i> INBOX</a></li>
+            <li><a onclick="window.content(3);" class="navlinks "><i class="fa-solid fa-paper-plane"></i> SENT</a></li>
+            <li id="signout"><a class="navlinks "><i class="fa-solid fa-right-from-bracket"></i> LOG OUT</a></li>
+        </ul>
+    </div>
+    <!--END SIDEBAR FIXED-->
+<!--BODY-->
+    <!--Dito niyo lagay yung consult, video meet, inbox, at sent-->
+    <div class="container-body" id="content-body">
+        <div class="containerbodyview" id="containerbodyview"></div>
+    </div>
+    <!-- END BODY-->
+    <script src="./js/doctor.js" type="module"></script>
+    <script src="./js/doccurrent.js" type="module"></script>
+    <script src="./js/console.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>

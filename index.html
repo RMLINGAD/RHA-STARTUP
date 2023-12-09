@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p,
+      h2 {
+        margin: 0;
+      }
+      .container-form-body {
+        display: flex;
+        justify-content: center;
+      }
+      .container-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: #e1e1e1;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.324);
+        padding: 20px;
+        margin-top: 300px;
+      }
+      .container-form h2,
+      p,
+      .but {
+        display: flex;
+        justify-content: center;
+      }
+      .container-form label {
+        font-size: 18px;
+
+        margin-bottom: 15px;
+      }
+      .container-form input,
+      select {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      .container-form button {
+        background-color: #1f6c75;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 15px;
+      }
+      .container-form span {
+        text-decoration: underline;
+        color: rgb(85, 45, 85);
+        cursor: pointer;
+      }
+      .container-form p {
+        margin-bottom: 15px;
+      }
+      .container-form .but {
+        width: 150px;
+      }
+      .containerbutton {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-form-body">
+      <div class="container-form" id="formcontent">
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/accounts.js" type="module"></script>
+  </body>
+</html>
