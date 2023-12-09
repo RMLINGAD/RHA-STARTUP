@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+header .logo{
+    height: 200px;
+    width: 200px;
+}
+.sidebar .username{
+    display: flex;
+    justify-content: center;
+}
+.sidebar .username .user{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 400;
+    line-height: 75px;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #1F6C75;
+}
+.sidebar ul li a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 25px;
+    color: aliceblue;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 2px solid rgba(128,120,120, 1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.sidebar ul a i{
+    margin-right: 20px;
+}
+.navlinks.active, .sidebar ul li a:hover{
+    background-color: rgb(9,24,29);
+    color: #1F6C75;
+}
