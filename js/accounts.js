@@ -49,7 +49,7 @@ window.changeform = function (value) {
     <input type="email" id="docemail"  placeholder="Enter your email"/>
     <label>PASSWORD:</label>
     <input type="password" id="dpass" placeholder="Enter your password"/>
-    <button id="dlogin">login</button>
+    <button id="dlogin">Login</button>
     <p>
       Don't have an account?
   
@@ -94,7 +94,7 @@ window.changeform = function (value) {
       placeholder="Enter your password"
       required
     />
-    <button id="login">login</button>
+    <button id="login">Login</button>
     <p>
       Don't have an account?
   
@@ -147,7 +147,7 @@ window.changeform = function (value) {
   </select>
   <label>Add Picture</label>
   <input type="file" id="docimage" />
-  <button id="dcreate">create</button>
+  <button id="dcreate">Sign Up</button>
   <p>
     Already have an account?
   
@@ -246,7 +246,7 @@ window.changeform = function (value) {
         <input type="password" id="password" placeholder="PASSWORD" />
         <label>Add a Picture: </label>
         <input type="file" id="image" />
-        <button id="create">SIGN UP</button>
+        <button id="create">Sign Up</button>
         <p>
     Already have an account?
   
